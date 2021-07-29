@@ -1,0 +1,342 @@
+fileFormatVersion: 2
+guid: b00287de5654e5f4ebdb40b4937558a0
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BathroomDoorFrame
+    second: {fileID: 2100000, guid: 7850aae7956ed364591d043d848afcf0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BathroomDoorMat
+    second: {fileID: 2100000, guid: 5536eb46fc61ef640ae3c14b157506c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BathroomWallTilesMat
+    second: {fileID: 2100000, guid: 05dab8e0cff20404a8d9f7b2dd1b2a18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BathroomWallsMat
+    second: {fileID: 2100000, guid: 25238e0b96fce9a409bc9275d399e678, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BedCouchMat
+    second: {fileID: 2100000, guid: b9bb15f5f34ffec4d8a01615f8cd5866, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BedroomDoorFrameMat
+    second: {fileID: 2100000, guid: 7850aae7956ed364591d043d848afcf0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BedroomDoorHandleMat
+    second: {fileID: 2100000, guid: ed5a5b1f1f05401428a52ac70ec14ed0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BedroomDoorMat
+    second: {fileID: 2100000, guid: 5536eb46fc61ef640ae3c14b157506c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BlancketChangingMat
+    second: {fileID: 2100000, guid: 19a7cd2caa74c9443a668b7a10bfaef8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BulbMat
+    second: {fileID: 2100000, guid: 6220b231571fcac4d90dae3a87a40ae5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CabinateWoodMat
+    second: {fileID: 2100000, guid: 558ac24140edf184586aeb9e55ec7c27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CarpetMat
+    second: {fileID: 2100000, guid: 9f021685694a5b14089fe1fb84828316, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CeramicMat
+    second: {fileID: 2100000, guid: 942bad699ae64a8408e046d3c00c7b39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ClosetDoorFrameMat
+    second: {fileID: 2100000, guid: 7850aae7956ed364591d043d848afcf0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ClosetDoorMat
+    second: {fileID: 2100000, guid: 5536eb46fc61ef640ae3c14b157506c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ConcreteMat
+    second: {fileID: 2100000, guid: 942bad699ae64a8408e046d3c00c7b39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CookingBottomMat
+    second: {fileID: 2100000, guid: 558ac24140edf184586aeb9e55ec7c27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CookingTopMat
+    second: {fileID: 2100000, guid: 9367a45e3d2b298418d605536f7c0e71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CouchMat
+    second: {fileID: 2100000, guid: ffcca61a05c75674a88de71bc1c39fec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DarkMetalMat
+    second: {fileID: 2100000, guid: a94c66da8ca8905468b3f3144c966147, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoorWood
+    second: {fileID: 2100000, guid: 558ac24140edf184586aeb9e55ec7c27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FridgeHighlightsMat
+    second: {fileID: 2100000, guid: db10a3196e9074f47b618e6cdf71cb08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FridgeIntMat
+    second: {fileID: 2100000, guid: 02f3a633d01b5c34581e5ec2e9729514, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FridgeMat
+    second: {fileID: 2100000, guid: 95db6444b7563a04593caf1b3eec4033, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GlassDoorFrameMat
+    second: {fileID: 2100000, guid: 5cbe0e466ec095b4d9acadd2f15de28a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GlassDoorMat
+    second: {fileID: 2100000, guid: 59d92380a625a504d91654dd9bfa26f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GlassMat
+    second: {fileID: 2100000, guid: 59d92380a625a504d91654dd9bfa26f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GlassNotSeeThrougMat
+    second: {fileID: 2100000, guid: 8497b02873cf94845a6f63963492ebb3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: InteractableWallsMat
+    second: {fileID: 2100000, guid: d9fe838e855d953428aff7cbb9d79fae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: InteractiveScreen
+    second: {fileID: 2100000, guid: d998bb01f1488b0439e439a15c0212cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LampMetalMat
+    second: {fileID: 2100000, guid: afe0606b38d20914291f447e5e5ecf4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LampShadeMat
+    second: {fileID: 2100000, guid: 1f0d33b76c9e0174da18ccc04931fda7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LightBulbMat
+    second: {fileID: 2100000, guid: 5875d13cb8ed3ed4292a369d5daf4ae8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MainDoorHandleMat
+    second: {fileID: 2100000, guid: 3583073a47e2c4b4196b8992f5be1bb1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 8be4fbd601d3317468251a5335888a42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MetalBarsMat
+    second: {fileID: 2100000, guid: 0a7ad3a7d719ec146acc751025cac6ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MetalMat
+    second: {fileID: 2100000, guid: afe0606b38d20914291f447e5e5ecf4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MicrowaveGlass
+    second: {fileID: 2100000, guid: 59bdae75223b14c47ad39937a8956c7d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MicrowaveMetalMat
+    second: {fileID: 2100000, guid: afe0606b38d20914291f447e5e5ecf4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MicrowavePlastic
+    second: {fileID: 2100000, guid: 0f77f9da403d3db49b5d1df4e2a6095b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OvenGlassMat
+    second: {fileID: 2100000, guid: 59bdae75223b14c47ad39937a8956c7d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RedMetalMat
+    second: {fileID: 2100000, guid: 50b81e35ff84ce94498d1409a3f8054d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rubber
+    second: {fileID: 2100000, guid: 55720b3e922779644be7cf476f9e89f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ShowerCurtainMat
+    second: {fileID: 2100000, guid: ffec3fa3f52ded04290e87fc77737b6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SpeakerMat
+    second: {fileID: 2100000, guid: 0778e3b6eed9ac34ab0d1f18b47a7226, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TilesFloorMat
+    second: {fileID: 2100000, guid: 4b04ea4a728f41e4c9b24dcf28d7af72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WindowMetalMat
+    second: {fileID: 2100000, guid: 5cbe0e466ec095b4d9acadd2f15de28a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WoodFloorMat
+    second: {fileID: 2100000, guid: 799db7a2c1b9bca48889680cb56bce04, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 0
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
