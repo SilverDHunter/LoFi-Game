@@ -1018,7 +1018,7 @@ MonoBehaviour:
   m_SmoothingTime: 0
   m_Damping: 0
   m_DampingWhenOccluded: 0
-  m_OptimalTargetDistance: 0
+  m_OptimalTargetDistance: 1
 --- !u!114 &650598765
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1546,7 +1546,7 @@ MonoBehaviour:
   m_SmoothingTime: 0
   m_Damping: 0
   m_DampingWhenOccluded: 0
-  m_OptimalTargetDistance: 0
+  m_OptimalTargetDistance: 1
 --- !u!114 &1016775593
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1649,7 +1649,7 @@ MonoBehaviour:
   m_SmoothingTime: 0
   m_Damping: 0
   m_DampingWhenOccluded: 0
-  m_OptimalTargetDistance: 0
+  m_OptimalTargetDistance: 1
 --- !u!114 &1030689843
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1999,7 +1999,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.06666667
   m_BuildHeightMesh: 0
-  m_NavMeshData: {fileID: 23800000, guid: 39c02a7d3acc853479458ec2c05ee42b, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: a4fd74e923de08a49a108c6e7e2de0ce, type: 2}
 --- !u!4 &1111258890
 Transform:
   m_ObjectHideFlags: 0
@@ -2699,6 +2699,7 @@ GameObject:
   - component: {fileID: 1565497919}
   - component: {fileID: 1565497918}
   - component: {fileID: 1565497920}
+  - component: {fileID: 1565497921}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -2766,6 +2767,20 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   playerAnimator: {fileID: 936926972}
+--- !u!136 &1565497921
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565497917}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.2
+  m_Height: 1.5
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.5, z: 0}
 --- !u!1 &1566453784
 GameObject:
   m_ObjectHideFlags: 0
@@ -3099,9 +3114,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97b0186819da6dc49a31fc42f78d5fa7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  brain: {fileID: 0}
-  currentCamera: {fileID: 0}
-  newCamera: {fileID: 0}
 --- !u!1 &1854498365
 GameObject:
   m_ObjectHideFlags: 3
@@ -3220,7 +3232,7 @@ MonoBehaviour:
   m_StreamingVersion: 20170927
   m_Priority: 10
   m_StandbyUpdate: 2
-  m_LookAt: {fileID: 1565497919}
+  m_LookAt: {fileID: 858575480}
   m_Follow: {fileID: 0}
   m_ShowDebugText: 0
   m_ChildCameras:
