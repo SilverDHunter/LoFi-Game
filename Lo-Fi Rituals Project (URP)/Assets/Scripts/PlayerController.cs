@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
 {
     void Start()
     {
-        
+        motor = GetComponent <Motor> ();
     }
 
     #region NavMesh Navigation
@@ -39,6 +39,11 @@ public class PlayerController : MonoBehaviour
     /// </summary>
     public LayerMask movementMask;
 
+    /// <summary>
+    /// Reference to the motor script.
+    /// </summary>
+    public Motor motor;
+
 
     /// <summary>
     /// Controls everything related to navigating the NavMesh.
@@ -57,44 +62,14 @@ public class PlayerController : MonoBehaviour
 
             if (Physics.Raycast (cameraRay, out cameraHit, 100f, movementMask))
             {
-                playerAgent.SetDestination (cameraHit.point);
+                motor.MoveToPoint (cameraHit.point);
+                playerAnimator.SetBool("IsWalking", true);
+                RemoveFocus ();
             }
         }
     }
 
     #endregion NavMesh Navigation
-
-    #region NavMesh Interaction
-
-    [Header ("NavMesh Interaction Controlls")]
-    [Space (10f)]
-
-    /// <summary>
-    /// Reference to the layer mask that controls interactivity.
-    /// </summary>
-    public LayerMask interactionMask;
-
-    /// <summary>
-    /// Controls everything related to interacting with objects within the NavMesh.
-    /// </summary>
-    public void NavMeshInteraction ()
-    {
-        Ray cameraRay;
-        RaycastHit cameraHit;
-
-        if (Input.GetMouseButtonDown (1))
-        {
-
-            cameraRay = mainCamera.ScreenPointToRay(Input.mousePosition);
-
-            if (Physics.Raycast(cameraRay, out cameraHit, movementMask))
-            {
-                playerAnimator.SetBool ("IsWalking", true);
-            }
-        }
-    }
-
-    #endregion NavMesh Interaction
 
     #region Walking Animation
 
@@ -108,9 +83,90 @@ public class PlayerController : MonoBehaviour
 
     #endregion Walking Animation
 
+    #region Object Interaction
+
+    [Header ("Object Interaction Controlls")]
+    [Space(10f)]
+
+    /// <summary>
+    /// Reference to the layer mask that controls interactivity.
+    /// </summary>
+    public LayerMask interactionMask;
+
+    /// <summary>
+    /// The current interactable object the player is focused on.
+    /// </summary>
+    public Interactable focus;
+
+
+    /// <summary>
+    /// Function that registers that a player is trying to interact with objects.
+    /// </summary>
+    public void ObjectInteraction ()
+    {
+        Ray cameraRay;
+        RaycastHit cameraHit;
+
+        if (Input.GetMouseButtonDown (1))
+        {
+
+            cameraRay = mainCamera.ScreenPointToRay(Input.mousePosition);
+
+            if (Physics.Raycast(cameraRay, out cameraHit, 100f, interactionMask))
+            {
+                Interactable interactable = cameraHit.collider.GetComponent <Interactable> ();
+
+                if (interactable != null)
+                {
+                    SetFocus (interactable);
+                }
+            }
+        }
+    }
+
+
+    /// <summary>
+    /// Function that changes the focus from one to another.
+    /// </summary>
+    /// <param name = "newFocus"> The new object that the player will focus on. </param>
+    public void SetFocus (Interactable newFocus)
+    {
+        if (newFocus != focus)
+        {
+            if (focus != null)
+            {
+                focus.OnDefocused ();
+            }
+
+            focus.OnDefocused();
+            focus = newFocus;
+            motor.FollowTarget (newFocus);
+        }
+
+        newFocus.OnFocused (transform);
+    }
+
+
+    /// <summary>
+    /// Sets the focus to null for movement.
+    /// </summary>
+    public void RemoveFocus ()
+    {
+        if (focus != null)
+        {
+            focus.OnDefocused();
+        }
+
+        focus = null;
+        focus.OnDefocused ();
+        motor.StopFollowingTarget ();
+    }
+
+    #endregion Object Interaction
+
     void Update()
     {
         NavMeshNavigation ();
-        NavMeshInteraction (); 
+        ObjectInteraction ();
     }
 }
