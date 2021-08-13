@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         motor = GetComponent <Motor> ();
+        playerAnimator = GetComponentInChildren <Animator> ();
     }
 
     #region NavMesh Navigation
@@ -63,6 +64,7 @@ public class PlayerController : MonoBehaviour
             if (Physics.Raycast (cameraRay, out cameraHit, 100f, movementMask))
             {
                 motor.MoveToPoint (cameraHit.point);
+                print("Navmesh hit");
                 playerAnimator.SetBool("IsWalking", true);
                 RemoveFocus ();
             }
