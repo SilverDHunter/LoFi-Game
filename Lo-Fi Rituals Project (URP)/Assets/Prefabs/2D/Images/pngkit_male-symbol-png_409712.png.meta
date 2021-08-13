@@ -1,7 +1,13 @@
 fileFormatVersion: 2
 guid: a3179c6b9c1e804478d62181685d077c
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 1461375356014607198
+    second: pngkit_male-symbol-png_409712_0
+  - first:
+      213: -38165886984324540
+    second: pngkit_male-symbol-png_409712_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -125,11 +131,53 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: pngkit_male-symbol-png_409712_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 799
+        height: 1167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5bb2c2c429d74410800000000000000
+      internalID: 1461375356014607198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_male-symbol-png_409712_1
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 100
+        width: 956
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44af2c7f358687ff0800000000000000
+      internalID: -38165886984324540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 249937e45a08303498e2723fa4291859
     internalID: 0
     vertices: []
     indices: 
